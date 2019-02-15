@@ -148,6 +148,8 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <None Include="Resources\Chris.jfif" />
+    <Content Include="Resources\Background.jpg" />
+    <Content Include="Resources\Bean.gif" />
     <Content Include="Resources\Jim.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

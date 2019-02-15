@@ -3,7 +3,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color:mediumturquoise;
+    background-color:bisque;
 }
 
 
@@ -67,5 +67,5 @@ div.form-group{
 }
 
 div > img{
-    margin-left: 25em;
+    margin-left: 32em;
 }
