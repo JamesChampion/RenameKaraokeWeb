@@ -3,7 +3,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color:bisque;
+    background-color: bisque;
 }
 
 
@@ -14,9 +14,9 @@ body {
     padding-right: 15px;
 }
 
-submit{
-    margin-left:auto;
-    margin-right:auto;
+submit {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -27,24 +27,25 @@ submit{
     white-space: normal;
 }
 
-.title-Page h1{
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    font-weight:bold;
-    font-size:50px;
-    margin-top:1em;
+.title-Page h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 1em;
 }
-.lead  {
+
+.lead {
     padding: 1em;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 2em;
 }
 
-#top-Row{
-    margin-bottom:2em;
+#top-Row {
+    margin-bottom: 2em;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -53,8 +54,9 @@ select,
 textarea {
     max-width: 280px;
 }
-#button-Row{
-    text-align:center;
+
+#button-Row {
+    text-align: center;
     margin-bottom: 2em;
 }
 
@@ -62,10 +64,11 @@ textarea {
     margin-left: auto;
     margin-right: auto;
 }
-div.form-group{
-    margin-left: 160px;
+
+div.form-group {
+    margin-left: 10.5em;
 }
 
-div > img{
-    margin-left: 32em;
+div > img {
+    margin-left: 30.5em;
 }
