@@ -8,9 +8,18 @@ namespace RenameKaraokeWeb.Controllers
 {
     public class TitleController : Controller
     {
-        // GET: Title
         public ActionResult Index()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Table(HttpPostedFileBase songList)
+        {
+            // 1) parse file
+            // 2) build model
+            // 3) pass model to view -    return View(model);
+
             return View();
         }
     }

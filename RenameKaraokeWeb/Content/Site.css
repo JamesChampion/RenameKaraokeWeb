@@ -10,14 +10,12 @@ body {
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:15em;
+    margin-right:15em;
 }
 
-submit {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -27,7 +25,7 @@ submit {
     white-space: normal;
 }
 
-.title-Page h1 {
+h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -39,13 +37,14 @@ submit {
 .lead {
     padding: 1em;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 15em;
     text-align: center;
     margin-bottom: 2em;
 }
 
 #top-Row {
     margin-bottom: 2em;
+    margin-left: 15em;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -53,22 +52,29 @@ input,
 select,
 textarea {
     max-width: 280px;
+    margin-left: 32em;
+    padding-bottom: 1em;
 }
 
-#button-Row {
-    text-align: center;
-    margin-bottom: 2em;
+
+
+label{
+    margin-left:33em;
 }
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
+#submit-btn{
+    margin-left:36em;
 }
 
-div.form-group {
-    margin-left: 10.5em;
+.table{
+    width:45%;
 }
-
-div > img {
-    margin-left: 30.5em;
+a{
+    margin-left: -15px;
+}
+.centered{
+    text-align:center;
+}
+caption{
+    color:red;
 }

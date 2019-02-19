@@ -3,38 +3,26 @@
     ViewBag.Title = "Title";
 }
 
-<div class="container body">
-    <p class="lead" id="title-Text">
-        Welcome to a karaoke file manager. Select a file and directory to get started.
-    </p>
-    <div class="row" id="top-Row">
-        <div class="col-sm-6">
-            <form>
+<form action="@Url.Action("Table", "Title")" method="post" enctype="multipart/form-data">
+    <div class="container body">
+        <p class="lead" id="title-Text">
+            Welcome to a karaoke file manager. Select a file and directory to get started.
+        </p>
+        <div class="row" id="top-Row">      
                 <div class="form-group">
                     <label for="textFileInput"> Select a master song list</label>
-                    <input type="file" class="form-control-file" id="textFileInput" />
-                </div>
-            </form>
-        </div>
-        <div class="col-sm-6">
-            <form>
+                    <input name="songList" type="file" id="textFileInput" required />
+            @*
                 <div class="form-group" id="folderBrowser">
                     <label for="textFileInput"> Select a folder</label>
-                    <input type="file" class="form-control-file" id="folderFileInput" />
+                    <input type="file"  id="folderFileInput" required />
                 </div>
-            </form>
+            *@
+            <input class="btn btn-primary center" type="submit" value="Submit" id="submit-btn">
+        </div>
         </div>
     </div>
-    <div class="row" id="button-Row">
-        <input class="btn btn-primary" type="submit" value="Submit" id="submit-btn" onclick="myFunction()">
-    </div>
-    <div class="text-center">
-        <img src="~/Resources/Bean.gif" class="img-responsive"/>
-    </div>
-</div>
-
-
-
+</form>
 
 
 

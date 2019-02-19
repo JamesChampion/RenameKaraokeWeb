@@ -1,0 +1,27 @@
+﻿@model IEnumerable<RenameKaraokeWeb.Models.SongRecord>
+
+@{
+    ViewBag.Title = "Table";
+}
+
+<table class="table table-striped">
+    <caption class="centered">Master Song List</caption>
+    <tr class="template-row">
+        <th class="centered" data-bind="nestedColumnSpan: $data, attr:{ title: $data.Name}" colspan="1" "
+            title="ID">
+            <span data-bind="text: $data.Name">ID</span>
+        </th>
+        <th class="centered" data-bind="nestedColumnSpan: $data, attr: { title: $data.Name }" colspan="1"
+            title="Song Title">
+            <span data-bind="text: $data.Name">Song Title</span>
+        </th>
+        <th class="centered" data-bind="nestedColumnSpan: $data, attr: { title: $data.Name}" colspan="1"
+            title="Artist">
+        <span data-bind="text: $data.Name">Artist</span>
+        </th>
+    </tr>
+</table>
+@*@foreach(var songRecord in Model)
+    {
+
+    }*@
