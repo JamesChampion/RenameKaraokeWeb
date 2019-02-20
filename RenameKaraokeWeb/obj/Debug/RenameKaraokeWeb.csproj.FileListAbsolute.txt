@@ -160,3 +160,7 @@ C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\obj\Debug\Rena
 C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\obj\Debug\RenameKaraokeWeb.pdb
 C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\obj\Debug\RenameKaraokeWeb.Properties.Resources.resources
 C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\obj\Debug\RenameKaraokeWeb.csproj.GenerateResource.cache
+C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\bin\CsvHelper.dll
+C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\bin\System.ValueTuple.dll
+C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\bin\CsvHelper.xml
+C:\Users\championj\source\repos\RenameKaraokeWeb\RenameKaraokeWeb\bin\System.ValueTuple.xml
