@@ -68,6 +68,14 @@ label{
 
 .table{
     width:45%;
+    table-layout:fixed;
+    column-width: 2em;
+    display: -moz-groupbox;
+}
+tbody{
+    overflow-y: scroll;
+    height: 75%;
+    position:absolute;
 }
 a{
     margin-left: -15px;
@@ -76,6 +84,11 @@ a{
     text-align:center;
 }
 caption{
-    color:red;
+    color:blue;
     font-size: 120%;
+    margin-left: 11em;
+}
+td{
+    font-size: small;
+
 }

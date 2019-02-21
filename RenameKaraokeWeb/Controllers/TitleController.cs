@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -20,29 +18,24 @@ namespace RenameKaraokeWeb.Controllers
         public ActionResult Table(HttpPostedFileBase songList)
         {
             using (var reader = new StreamReader(songList.InputStream))
-                using (var csv = new CsvReader(reader))
+            using (var csv = new CsvReader(reader))
             {
                 csv.Configuration.Delimiter = " - ";
                 csv.Configuration.HasHeaderRecord = false;
                 csv.Configuration.MissingFieldFound = null;
-                var records = csv.GetRecords<SongRecord>();
-                foreach(SongRecord record in records)
+                var records = csv.GetRecords<SongModel>();
+                var songRecords = new SongRecord
                 {
+                    SongRecords = records.ToList()
+                };
 
-                    Console.WriteLine(record.ID + " " + record.Artist + " " + record.Title);
-                }
 
+                // 1) parse file - Done
+                // 2) build model - Done
+                // 3) pass model to view -    return View(model) - Done ;
 
+                return View(songRecords);
             }
-
-
-
-
-                // 1) parse file
-                // 2) build model
-                // 3) pass model to view -    return View(model);
-
-                return View();
         }
     }
 }
